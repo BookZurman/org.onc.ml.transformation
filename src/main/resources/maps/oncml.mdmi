@@ -7,34 +7,34 @@
           <nodes xsi:type="mdmi:Bag" xmi:id="_nTnaVYh8Ee2jS-hzSQYKvw" name="ROW" maxOccurs="2147483647" location="row" semanticElement="_nTnaYoh8Ee2jS-hzSQYKvw" fieldName="ROW">
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_nTnaVoh8Ee2jS-hzSQYKvw" name="SKINTHICKNESS" maxOccurs="1" location="SKINTHICKNESS" semanticElement="_HltB5JtmEe2apKHSHGMyhg" fieldName="SKINTHICKNESS"/>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_nTnaV4h8Ee2jS-hzSQYKvw" name="PREGNANCIES" maxOccurs="1" location="PREGNANCIES" fieldName="PREGNANCIES"/>
-            <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_nTnaWIh8Ee2jS-hzSQYKvw" name="AGE" maxOccurs="1" location="AGE" semanticElement="_nTnaZYh8Ee2jS-hzSQYKvw" fieldName="AGE"/>
+            <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_nTnaWIh8Ee2jS-hzSQYKvw" name="AGE" maxOccurs="1" location="AGE" semanticElement="_yzBDUFsWEe6MY-Qr6bXb5g" fieldName="AGE"/>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_nTnaWYh8Ee2jS-hzSQYKvw" name="BMI" maxOccurs="1" location="BMI" semanticElement="_0_KHBMNFEe2gc5g9gPFMaw" fieldName="BMI"/>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_nTnaWoh8Ee2jS-hzSQYKvw" name="OUTCOME" maxOccurs="1" location="OUTCOME" semanticElement="_WIoK5BzuEe6g_ogX7kip9Q" fieldName="OUTCOME"/>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_nTnaW4h8Ee2jS-hzSQYKvw" name="BLOODPRESSURE" maxOccurs="1" location="BLOODPRESSURE" semanticElement="_aiVWFBzuEe6g_ogX7kip9Q" fieldName="BLOODPRESSURE"/>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_nTnaXIh8Ee2jS-hzSQYKvw" name="GLUCOSE" maxOccurs="1" location="GLUCOSE" semanticElement="_nTnaaYh8Ee2jS-hzSQYKvw" fieldName="GLUCOSE"/>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_nTnaXYh8Ee2jS-hzSQYKvw" name="DIABETESPEDIGREEFUNCTION" maxOccurs="1" location="DIABETESPEDIGREEFUNCTION" semanticElement="_e4TQwBzuEe6g_ogX7kip9Q" fieldName="DIABETESPEDIGREEFUNCTION"/>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_nTnaXoh8Ee2jS-hzSQYKvw" name="INSULIN" maxOccurs="1" location="INSULIN" semanticElement="_iPXTNBzuEe6g_ogX7kip9Q" fieldName="INSULIN"/>
-            <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_uxnbYJa-Ee20trxthlUR0w" name="GENDER" maxOccurs="1" location="GENDER" semanticElement="_yS1fYJa-Ee20trxthlUR0w" fieldName="INSULIN"/>
+            <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_uxnbYJa-Ee20trxthlUR0w" name="GENDER" maxOccurs="1" location="GENDER" semanticElement="_zw5A0FsWEe6MY-Qr6bXb5g" fieldName="INSULIN"/>
           </nodes>
         </root>
       </syntaxModel>
       <elementSet xmi:id="_nTnaX4h8Ee2jS-hzSQYKvw">
-        <semanticElements xmi:id="_nTnaYoh8Ee2jS-hzSQYKvw" name="ROW" description="ROWa" elementType="COMPUTED" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_nTnaYIh8Ee2jS-hzSQYKvw" children="_EwslAJbDEe20trxthlUR0w" syntaxNode="_nTnaVYh8Ee2jS-hzSQYKvw">
-          <mapFromMdmi xmi:id="_iwQGYZwQEe2apKHSHGMyhg" name="MDMI2Message4ROW" businessElement="__RdMEIu0Ee2KbfchS023sA"/>
-          <mapToMdmi xmi:id="_iwQGYJwQEe2apKHSHGMyhg" name="Message2MDMI4ROW" businessElement="__RdMEIu0Ee2KbfchS023sA"/>
-        </semanticElements>
-        <semanticElements xmi:id="_yS1fYJa-Ee20trxthlUR0w" name="gender" description="gender" datatype="_nTnacoh8Ee2jS-hzSQYKvw" parent="_EwslAJbDEe20trxthlUR0w" syntaxNode="_uxnbYJa-Ee20trxthlUR0w">
-          <mapFromMdmi xmi:id="_IuQjkZa_Ee20trxthlUR0w" name="MDMI2Message4GENDER" businessElement="__QIWbou0Ee2KbfchS023sA" rule="DATATYPEMAP:mapCodedElementToString"/>
-          <mapToMdmi xmi:id="_IuQjkJa_Ee20trxthlUR0w" name="Message2MDMI4GENDER" businessElement="__QIWbou0Ee2KbfchS023sA" rule="DATATYPEMAP:mapStringToCodedElement"/>
-        </semanticElements>
-        <semanticElements xmi:id="_EwslAJbDEe20trxthlUR0w" name="PatientContainer" description="PatientContainer" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_nTnaYoh8Ee2jS-hzSQYKvw" children="_yS1fYJa-Ee20trxthlUR0w _nTnaZYh8Ee2jS-hzSQYKvw _eOzMgJbCEe20trxthlUR0w _HltB4JtmEe2apKHSHGMyhg _0_KHAMNFEe2gc5g9gPFMaw _WIoK4BzuEe6g_ogX7kip9Q _aiVWEBzuEe6g_ogX7kip9Q _e4SpsBzuEe6g_ogX7kip9Q _iPXTMBzuEe6g_ogX7kip9Q">
-          <mapFromMdmi xmi:id="_MlTw0ZbDEe20trxthlUR0w" name="MDMI2Message4PatientContainer" businessElement="__QIXQ4u0Ee2KbfchS023sA"/>
-          <mapToMdmi xmi:id="_MlTw0JbDEe20trxthlUR0w" name="Message2MDMI4PatientContainer" businessElement="__QIXQ4u0Ee2KbfchS023sA"/>
-        </semanticElements>
-        <semanticElements xmi:id="_eOzMgJbCEe20trxthlUR0w" name="glucoseobservation" description="glucoseobservation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_EwslAJbDEe20trxthlUR0w" children="_nTnaaYh8Ee2jS-hzSQYKvw _P-o_8JbKEe20trxthlUR0w">
-          <relationships xmi:id="_GgopgJthEe2apKHSHGMyhg" name="QUALIFIER" description="" rule="function isglucoseobservation(target) { &#xA;    if ('8302-1' === target.value()) {&#xA;&#x9;&#x9;return true;&#xA;&#x9;} else {&#xA;&#x9;&#x9;return true;&#xA;&#x9;}&#xA;}" context="_eOzMgJbCEe20trxthlUR0w" relatedSemanticElement="_P-o_8JbKEe20trxthlUR0w"/>
+        <semanticElements xmi:id="_eOzMgJbCEe20trxthlUR0w" name="glucoseobservation" description="glucoseobservation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_nTnaYoh8Ee2jS-hzSQYKvw" children="_nTnaaYh8Ee2jS-hzSQYKvw _P-o_8JbKEe20trxthlUR0w">
+          <relationships xmi:id="_GgopgJthEe2apKHSHGMyhg" name="QUALIFIER" description="glucose" rule="" context="_eOzMgJbCEe20trxthlUR0w" relatedSemanticElement="_P-o_8JbKEe20trxthlUR0w"/>
           <mapFromMdmi xmi:id="_sM1NoZbCEe20trxthlUR0w" name="MDMI2Message4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
           <mapToMdmi xmi:id="_sM1NoJbCEe20trxthlUR0w" name="Message2MDMI4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
+        </semanticElements>
+        <semanticElements xmi:id="_yzBDUFsWEe6MY-Qr6bXb5g" name="Age" description="Age" datatype="_nTnacoh8Ee2jS-hzSQYKvw" parent="_nTnaYoh8Ee2jS-hzSQYKvw" syntaxNode="_nTnaWIh8Ee2jS-hzSQYKvw">
+          <mapFromMdmi xmi:id="_N6e_4VsXEe6MY-Qr6bXb5g" name="MDMI2Message4Age" businessElement="__QIWcIu0Ee2KbfchS023sA"/>
+          <mapToMdmi xmi:id="_N6e_4FsXEe6MY-Qr6bXb5g" name="Message2MDMI4Age" businessElement="__QIWcIu0Ee2KbfchS023sA"/>
+        </semanticElements>
+        <semanticElements xmi:id="_nTnaYoh8Ee2jS-hzSQYKvw" name="ROW" description="ROWa" elementType="NORMAL" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_nTnaYIh8Ee2jS-hzSQYKvw" children="_HltB4JtmEe2apKHSHGMyhg _0_KHAMNFEe2gc5g9gPFMaw _WIoK4BzuEe6g_ogX7kip9Q _aiVWEBzuEe6g_ogX7kip9Q _e4SpsBzuEe6g_ogX7kip9Q _iPXTMBzuEe6g_ogX7kip9Q _eOzMgJbCEe20trxthlUR0w _yzBDUFsWEe6MY-Qr6bXb5g _zw5A0FsWEe6MY-Qr6bXb5g" syntaxNode="_nTnaVYh8Ee2jS-hzSQYKvw">
+          <mapFromMdmi xmi:id="_XewgkVsZEe6MY-Qr6bXb5g" name="MDMI2Message4ROW" businessElement="__RdMEIu0Ee2KbfchS023sA"/>
+          <mapToMdmi xmi:id="_XewgkFsZEe6MY-Qr6bXb5g" name="Message2MDMI4ROW" businessElement="__RdMEIu0Ee2KbfchS023sA"/>
+        </semanticElements>
+        <semanticElements xmi:id="_zw5A0FsWEe6MY-Qr6bXb5g" name="Gender" description="Gender" datatype="_nTnacoh8Ee2jS-hzSQYKvw" parent="_nTnaYoh8Ee2jS-hzSQYKvw" syntaxNode="_uxnbYJa-Ee20trxthlUR0w">
+          <mapFromMdmi xmi:id="_QKCAoVsXEe6MY-Qr6bXb5g" name="MDMI2Message4Gender" businessElement="__QIWbou0Ee2KbfchS023sA" rule="DATATYPEMAP:mapCodedElementToString"/>
+          <mapToMdmi xmi:id="_QKCAoFsXEe6MY-Qr6bXb5g" name="Message2MDMI4Gender" businessElement="__QIWbou0Ee2KbfchS023sA" rule="DATATYPEMAP:mapStringToCodedElement"/>
         </semanticElements>
         <semanticElements xmi:id="_P-o_8JbKEe20trxthlUR0w" name="glucosetypecode" description="asdf" datatype="_nTnacoh8Ee2jS-hzSQYKvw" parent="_eOzMgJbCEe20trxthlUR0w">
           <mapFromMdmi xmi:id="_HpMzEZtsEe2apKHSHGMyhg" name="MDMI2Message4glucosetypecode" businessElement="__RPwtYu0Ee2KbfchS023sA" rule="DATATYPEMAP:mapCodedElementToString"/>
@@ -45,14 +45,8 @@
           <mapToMdmi xmi:id="_xEYn4JbBEe20trxthlUR0w" name="Message2MDMI4glucose" businessElement="__RRl5Iu0Ee2KbfchS023sA" rule="DATATYPEMAP:mapStringToPhysicalQuantity"/>
         </semanticElements>
         <semanticElements xmi:id="_nTnaYIh8Ee2jS-hzSQYKvw" name="DocumentRoot" description="s" datatype="_nTnae4h8Ee2jS-hzSQYKvw" children="_nTnaYoh8Ee2jS-hzSQYKvw" syntaxNode="_nTnaU4h8Ee2jS-hzSQYKvw"/>
-        <semanticElements xmi:id="_nTnaZYh8Ee2jS-hzSQYKvw" name="age" datatype="_nTnacoh8Ee2jS-hzSQYKvw" parent="_EwslAJbDEe20trxthlUR0w" syntaxNode="_nTnaWIh8Ee2jS-hzSQYKvw">
-          <mapFromMdmi xmi:id="_SWaqwYu1Ee2KbfchS023sA" name="MDMI2Message4age" businessElement="__QIWcIu0Ee2KbfchS023sA"/>
-          <computedValue xmi:id="_7HcSEJUdEe2btfcFCxZrnw" expression="calculateage()" language="JavaScript"/>
-          <mapToMdmi xmi:id="_SWaqwIu1Ee2KbfchS023sA" name="Message2MDMI4age" businessElement="__QIWcIu0Ee2KbfchS023sA"/>
-          <computedOutValue xmi:id="_jgTDcMNFEe2gc5g9gPFMaw" expression="calculateage1()" language="JavaScript"/>
-        </semanticElements>
-        <semanticElements xmi:id="_HltB4JtmEe2apKHSHGMyhg" name="skinthicknessobsevation" description="skinthicknessobsevation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_EwslAJbDEe20trxthlUR0w" children="_HltB5JtmEe2apKHSHGMyhg _HltB55tmEe2apKHSHGMyhg">
-          <relationships xmi:id="_HltB4ZtmEe2apKHSHGMyhg" name="QUALIFIER" description="skinthicknessobsevation" rule="function isskinthicknessobsevation(target) { &#xA;    if ('LP73365-6' === target.value()) {&#xA;&#x9;&#x9;return true;&#xA;&#x9;} else {&#xA;&#x9;&#x9;return true;&#xA;&#x9;}&#xA;}" context="_HltB4JtmEe2apKHSHGMyhg" relatedSemanticElement="_HltB55tmEe2apKHSHGMyhg"/>
+        <semanticElements xmi:id="_HltB4JtmEe2apKHSHGMyhg" name="skinthicknessobsevation" description="skinthicknessobsevation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_nTnaYoh8Ee2jS-hzSQYKvw" children="_HltB5JtmEe2apKHSHGMyhg _HltB55tmEe2apKHSHGMyhg">
+          <relationships xmi:id="_HltB4ZtmEe2apKHSHGMyhg" name="QUALIFIER" description="skinthickness" rule="" context="_HltB4JtmEe2apKHSHGMyhg" relatedSemanticElement="_HltB55tmEe2apKHSHGMyhg"/>
           <mapFromMdmi xmi:id="_HltB4ptmEe2apKHSHGMyhg" name="MDMI2Message4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
           <mapToMdmi xmi:id="_HltB45tmEe2apKHSHGMyhg" name="Message2MDMI4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
         </semanticElements>
@@ -64,8 +58,8 @@
           <mapFromMdmi xmi:id="_4uyh4ZtuEe2apKHSHGMyhg" name="MDMI2Message4skinthicknessobsevationtypecode" businessElement="__RPwtYu0Ee2KbfchS023sA" rule="DATATYPEMAP:mapCodedElementToString"/>
           <mapToMdmi xmi:id="_4uyh4JtuEe2apKHSHGMyhg" name="Message2MDMI4skinthicknessobsevationtypecode" businessElement="__RPwtYu0Ee2KbfchS023sA" rule="DATATYPEMAP:mapStringToCodedElement"/>
         </semanticElements>
-        <semanticElements xmi:id="_0_KHAMNFEe2gc5g9gPFMaw" name="bmiobsevation" description="bmiobsevation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_EwslAJbDEe20trxthlUR0w" children="_0_KHBMNFEe2gc5g9gPFMaw _0_KHB8NFEe2gc5g9gPFMaw">
-          <relationships xmi:id="_0_KHAcNFEe2gc5g9gPFMaw" name="QUALIFIER" description="DiplomaType" rule="function isbmiobsevation127619(target) { &#xA;    if ('999999' === target.value()) {&#xA;&#x9;&#x9;return true;&#xA;&#x9;} else {&#xA;&#x9;&#x9;return true;&#xA;&#x9;}&#xA;}" context="_0_KHAMNFEe2gc5g9gPFMaw" relatedSemanticElement="_0_KHB8NFEe2gc5g9gPFMaw"/>
+        <semanticElements xmi:id="_0_KHAMNFEe2gc5g9gPFMaw" name="bmiobsevation" description="bmiobsevation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_nTnaYoh8Ee2jS-hzSQYKvw" children="_0_KHBMNFEe2gc5g9gPFMaw _0_KHB8NFEe2gc5g9gPFMaw">
+          <relationships xmi:id="_0_KHAcNFEe2gc5g9gPFMaw" name="QUALIFIER" description="bmi" rule="" context="_0_KHAMNFEe2gc5g9gPFMaw" relatedSemanticElement="_0_KHB8NFEe2gc5g9gPFMaw"/>
           <mapFromMdmi xmi:id="_0_KHAsNFEe2gc5g9gPFMaw" name="MDMI2Message4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
           <mapToMdmi xmi:id="_0_KHA8NFEe2gc5g9gPFMaw" name="Message2MDMI4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
         </semanticElements>
@@ -77,8 +71,8 @@
           <mapFromMdmi xmi:id="_0_KHCMNFEe2gc5g9gPFMaw" name="MDMI2Message4skinthicknessobsevationtypecode" businessElement="__RPwtYu0Ee2KbfchS023sA" rule="DATATYPEMAP:mapCodedElementToString"/>
           <mapToMdmi xmi:id="_0_KHCcNFEe2gc5g9gPFMaw" name="Message2MDMI4skinthicknessobsevationtypecode" businessElement="__RPwtYu0Ee2KbfchS023sA" rule="DATATYPEMAP:mapStringToCodedElement"/>
         </semanticElements>
-        <semanticElements xmi:id="_WIoK4BzuEe6g_ogX7kip9Q" name="outcomeobservation" description="bmiobsevation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_EwslAJbDEe20trxthlUR0w" children="_WIoK5BzuEe6g_ogX7kip9Q _WIoK5xzuEe6g_ogX7kip9Q">
-          <relationships xmi:id="_WIoK4RzuEe6g_ogX7kip9Q" name="QUALIFIER" description="DiplomaType" rule="function isoutcomeobservation(target) { &#xA;    if ('999999' === target.value()) {&#xA;&#x9;&#x9;return true;&#xA;&#x9;} else {&#xA;&#x9;&#x9;return true;&#xA;&#x9;}&#xA;}" context="_WIoK4BzuEe6g_ogX7kip9Q" relatedSemanticElement="_WIoK5xzuEe6g_ogX7kip9Q"/>
+        <semanticElements xmi:id="_WIoK4BzuEe6g_ogX7kip9Q" name="outcomeobservation" description="bmiobsevation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_nTnaYoh8Ee2jS-hzSQYKvw" children="_WIoK5BzuEe6g_ogX7kip9Q _WIoK5xzuEe6g_ogX7kip9Q">
+          <relationships xmi:id="_WIoK4RzuEe6g_ogX7kip9Q" name="QUALIFIER" description="outcome" rule="" context="_WIoK4BzuEe6g_ogX7kip9Q" relatedSemanticElement="_WIoK5xzuEe6g_ogX7kip9Q"/>
           <mapFromMdmi xmi:id="_WIoK4hzuEe6g_ogX7kip9Q" name="MDMI2Message4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
           <mapToMdmi xmi:id="_WIoK4xzuEe6g_ogX7kip9Q" name="Message2MDMI4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
         </semanticElements>
@@ -90,8 +84,8 @@
           <mapFromMdmi xmi:id="_WIoK6BzuEe6g_ogX7kip9Q" name="MDMI2Message4skinthicknessobsevationtypecode" businessElement="__RPwtYu0Ee2KbfchS023sA" rule="DATATYPEMAP:mapCodedElementToString"/>
           <mapToMdmi xmi:id="_WIoK6RzuEe6g_ogX7kip9Q" name="Message2MDMI4skinthicknessobsevationtypecode" businessElement="__RPwtYu0Ee2KbfchS023sA" rule="DATATYPEMAP:mapStringToCodedElement"/>
         </semanticElements>
-        <semanticElements xmi:id="_aiVWEBzuEe6g_ogX7kip9Q" name="bloodpressureobservation" description="bmiobsevation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_EwslAJbDEe20trxthlUR0w" children="_aiVWFBzuEe6g_ogX7kip9Q _aiVWFxzuEe6g_ogX7kip9Q">
-          <relationships xmi:id="_aiVWERzuEe6g_ogX7kip9Q" name="QUALIFIER" description="DiplomaType" rule="function isbloodpressureobservation(target) { &#xA;    if ('999999' === target.value()) {&#xA;&#x9;&#x9;return true;&#xA;&#x9;} else {&#xA;&#x9;&#x9;return true;&#xA;&#x9;}&#xA;}" context="_aiVWEBzuEe6g_ogX7kip9Q" relatedSemanticElement="_aiVWFxzuEe6g_ogX7kip9Q"/>
+        <semanticElements xmi:id="_aiVWEBzuEe6g_ogX7kip9Q" name="bloodpressureobservation" description="bmiobsevation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_nTnaYoh8Ee2jS-hzSQYKvw" children="_aiVWFBzuEe6g_ogX7kip9Q _aiVWFxzuEe6g_ogX7kip9Q">
+          <relationships xmi:id="_aiVWERzuEe6g_ogX7kip9Q" name="QUALIFIER" description="bloodpressure" rule="" context="_aiVWEBzuEe6g_ogX7kip9Q" relatedSemanticElement="_aiVWFxzuEe6g_ogX7kip9Q"/>
           <mapFromMdmi xmi:id="_aiVWEhzuEe6g_ogX7kip9Q" name="MDMI2Message4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
           <mapToMdmi xmi:id="_aiVWExzuEe6g_ogX7kip9Q" name="Message2MDMI4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
         </semanticElements>
@@ -103,8 +97,8 @@
           <mapFromMdmi xmi:id="_aiVWGBzuEe6g_ogX7kip9Q" name="MDMI2Message4skinthicknessobsevationtypecode" businessElement="__RPwtYu0Ee2KbfchS023sA" rule="DATATYPEMAP:mapCodedElementToString"/>
           <mapToMdmi xmi:id="_aiVWGRzuEe6g_ogX7kip9Q" name="Message2MDMI4skinthicknessobsevationtypecode" businessElement="__RPwtYu0Ee2KbfchS023sA" rule="DATATYPEMAP:mapStringToCodedElement"/>
         </semanticElements>
-        <semanticElements xmi:id="_e4SpsBzuEe6g_ogX7kip9Q" name="diabetesobservation" description="bmiobsevation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_EwslAJbDEe20trxthlUR0w" children="_e4TQwBzuEe6g_ogX7kip9Q _e4TQwxzuEe6g_ogX7kip9Q">
-          <relationships xmi:id="_e4SpsRzuEe6g_ogX7kip9Q" name="QUALIFIER" description="DiplomaType" rule="function isdiabetesobservation(target) { &#xA;    if ('999999' === target.value()) {&#xA;&#x9;&#x9;return true;&#xA;&#x9;} else {&#xA;&#x9;&#x9;return true;&#xA;&#x9;}&#xA;}" context="_e4SpsBzuEe6g_ogX7kip9Q" relatedSemanticElement="_e4TQwxzuEe6g_ogX7kip9Q"/>
+        <semanticElements xmi:id="_e4SpsBzuEe6g_ogX7kip9Q" name="diabetesobservation" description="bmiobsevation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_nTnaYoh8Ee2jS-hzSQYKvw" children="_e4TQwBzuEe6g_ogX7kip9Q _e4TQwxzuEe6g_ogX7kip9Q">
+          <relationships xmi:id="_e4SpsRzuEe6g_ogX7kip9Q" name="QUALIFIER" description="diabetes" rule="" context="_e4SpsBzuEe6g_ogX7kip9Q" relatedSemanticElement="_e4TQwxzuEe6g_ogX7kip9Q"/>
           <mapFromMdmi xmi:id="_e4SpshzuEe6g_ogX7kip9Q" name="MDMI2Message4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
           <mapToMdmi xmi:id="_e4SpsxzuEe6g_ogX7kip9Q" name="Message2MDMI4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
         </semanticElements>
@@ -116,8 +110,8 @@
           <mapFromMdmi xmi:id="_e4TQxBzuEe6g_ogX7kip9Q" name="MDMI2Message4skinthicknessobsevationtypecode" businessElement="__RPwtYu0Ee2KbfchS023sA" rule="DATATYPEMAP:mapCodedElementToString"/>
           <mapToMdmi xmi:id="_e4TQxRzuEe6g_ogX7kip9Q" name="Message2MDMI4skinthicknessobsevationtypecode" businessElement="__RPwtYu0Ee2KbfchS023sA" rule="DATATYPEMAP:mapStringToCodedElement"/>
         </semanticElements>
-        <semanticElements xmi:id="_iPXTMBzuEe6g_ogX7kip9Q" name="insulinobservation" description="bmiobsevation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_EwslAJbDEe20trxthlUR0w" children="_iPXTNBzuEe6g_ogX7kip9Q _iPXTNxzuEe6g_ogX7kip9Q">
-          <relationships xmi:id="_iPXTMRzuEe6g_ogX7kip9Q" name="QUALIFIER" description="DiplomaType" rule="function isinsulinobservation(target) { &#xA;    if ('999999' === target.value()) {&#xA;&#x9;&#x9;return true;&#xA;&#x9;} else {&#xA;&#x9;&#x9;return true;&#xA;&#x9;}&#xA;}" context="_iPXTMBzuEe6g_ogX7kip9Q" relatedSemanticElement="_iPXTNxzuEe6g_ogX7kip9Q"/>
+        <semanticElements xmi:id="_iPXTMBzuEe6g_ogX7kip9Q" name="insulinobservation" description="bmiobsevation" datatype="_nTnae4h8Ee2jS-hzSQYKvw" parent="_nTnaYoh8Ee2jS-hzSQYKvw" children="_iPXTNBzuEe6g_ogX7kip9Q _iPXTNxzuEe6g_ogX7kip9Q">
+          <relationships xmi:id="_iPXTMRzuEe6g_ogX7kip9Q" name="QUALIFIER" description="insulin" rule="" context="_iPXTMBzuEe6g_ogX7kip9Q" relatedSemanticElement="_iPXTNxzuEe6g_ogX7kip9Q"/>
           <mapFromMdmi xmi:id="_iPXTMhzuEe6g_ogX7kip9Q" name="MDMI2Message4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
           <mapToMdmi xmi:id="_iPXTMxzuEe6g_ogX7kip9Q" name="Message2MDMI4glucoseobservation" businessElement="__RdMEYu0Ee2KbfchS023sA"/>
         </semanticElements>

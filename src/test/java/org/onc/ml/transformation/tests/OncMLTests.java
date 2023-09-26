@@ -132,6 +132,54 @@ class OncMLTests {
 				runTransformation("FHIRR4JSON.MasterBundle", "ONCML.GENERATED", document,"csv");			 
 		}
 	}
+	
+	@Test
+	public void testFHIR2ML3() throws Exception {
+		Set<String> documents = Stream.of(new File("src/test/resources/samples/fhir3").listFiles()).filter(
+			file -> !file.isDirectory()).map(t -> {
+				try {
+					return t.getCanonicalPath();
+				} catch (IOException e) {
+					return "";
+				}
+			}).collect(Collectors.toSet());
+
+		for (String document: documents) {					
+				runTransformation("FHIRR4JSON.MasterBundle", "ONCML.DIABETES", document,"csv");			 
+		}
+	}
+	
+	@Test
+	public void testFHIR2ML4() throws Exception {
+		Set<String> documents = Stream.of(new File("src/test/resources/samples/fhir4").listFiles()).filter(
+			file -> !file.isDirectory()).map(t -> {
+				try {
+					return t.getCanonicalPath();
+				} catch (IOException e) {
+					return "";
+				}
+			}).collect(Collectors.toSet());
+
+		for (String document: documents) {					
+				runTransformation("FHIRR4JSON.MasterBundle", "ONCML.DIABETES", document,"csv");			 
+		}
+	}
+	
+	@Test
+	public void testFHIR2ML5() throws Exception {
+		Set<String> documents = Stream.of(new File("src/test/resources/samples/fhir5").listFiles()).filter(
+			file -> !file.isDirectory()).map(t -> {
+				try {
+					return t.getCanonicalPath();
+				} catch (IOException e) {
+					return "";
+				}
+			}).collect(Collectors.toSet());
+
+		for (String document: documents) {					
+				runTransformation("FHIRR4JSON.MasterBundle", "ONCML.DIABETES", document,"csv");			 
+		}
+	}
 
  
 
